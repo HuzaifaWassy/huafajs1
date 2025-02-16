@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Alerts & Messages</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; margin-top: 50px; }
+        button { padding: 10px 20px; font-size: 16px; cursor: pointer; margin: 10px; }
+    </style>
+
+    <!-- Q1: Greet visitor using alert box -->
+        alert("Q1: Welcome to our website! We hope you have a great experience.");
+
+    <!-- Q2: Display a message on the web page -->
+    <h2 id="message"></h2>
+
+    <script>
+        document.getElementById("message").textContent = "Q2: Hello! This is a message displayed on the webpage.";
+    </script>
+
+    <!-- Q3: Display a message with line breaks -->
+    <h2 id="messageWithBreaks"></h2>
+
+    <script>
+        document.getElementById("messageWithBreaks").innerHTML = "Q3: Hello!<br>Welcome to our website.<br>Enjoy your visit!";
+    </script>
+
+    <!-- Q4: Display multiple alerts in sequence -->
+    <script>
+        alert("Q4: Enjoy your visit!");
+        alert("Q4: Don't forget to check out our latest updates.");
+    </script>
+
+    <!-- Q5: Generate message in the developer console -->
+    <script>
+        console.log("Q5: Hello! This message is displayed in the browser’s developer console.");
+    </script>
+
+    <!-- Q6: Button to Trigger Alert -->
+    <button onclick="showAlert()">Click Me for Alert</button>
+
+    <script>
+        function showAlert() {
+            alert("Q6: This is an alert message triggered by a button!");
+        }
+    </script>
+
+    <!-- Q7a: Script in Head Section (Already Placed) -->
+
+    <!-- Q7b: Script before page’s HTML -->
+    <script>
+        alert("Q7b: This alert is before the page’s content.");
+    </script>
+
+    <!-- Q7c: Script inside page's HTML -->
+    <script>
+        alert("Q7c: This alert is inside the page’s HTML.");
+    </script>
+
+</body>
+
+<!-- Q7d: Script after page’s HTML -->
+<script>
+    alert("Q7d: This alert is after the page’s HTML.");
+</script>
+
+</html>

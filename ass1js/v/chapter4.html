@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Variable Rules</title>
+</head>
+<body>
+
+    <script>
+        // Q1: Declare 3 variables in one statement//
+        var firstName = "John", lastName = "Doe", age = 25;
+
+        // Q2: Declare 5 legal & 5 illegal variable names//
+
+        // Legal Variable Names://
+        var myVariable;
+        var _underscoreVar;
+        var $dollarSignVar;
+        var myVar123;
+        var camelCaseVar;
+
+        //  Illegal Variable Names (Uncommenting these will cause an error)//
+        // var 123myVar; // 
+        // var my-var; // 
+        // var var; //
+        // var my variable; //
+        // var alert; // 
+
+        // Q3: Display variable rules in browser//
+        document.write("<h1>Rules for naming JS variables</h1>");
+        document.write("<p><b>Variable names can only contain</b> letters, numbers, underscores (_), and dollar signs ($).<br>For example: <code>$my_1stVariable</code></p>");
+        document.write("<p><b>Variables must begin with</b> a letter, underscore (_), or dollar sign ($).<br>For example: <code>$name, _name, name</code></p>");
+        document.write("<p><b>Variable names are case-sensitive.</b></p>");
+        document.write("<p><b>Variable names should not be JavaScript keywords.</b></p>");
+
+    </script>
+
+</body>
+</html>

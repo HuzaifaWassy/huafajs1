@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Variables & Numbers</title>
+</head>
+<body>
+
+    <script>
+        // Q1: Declare a variable for age & show in alert//
+        var age = 25; // Change this to your age//
+        alert("Q1: I am " + age + " years old.");
+
+        // Q2: Track visitor count & show on webpage//
+        var visitCount = localStorage.getItem("visitCount") || 0;
+        visitCount++;
+        localStorage.setItem("visitCount", visitCount);
+        document.write("<h2>Q2: You have visited this site " + visitCount + " times.</h2>");
+
+        // Q3: Declare birthYear & show in browser//
+        var birthYear = 1999; // Change this to your birth year//
+        document.write("<h2>Q3: My birth year is " + birthYear + ".<br>Data type of my declared variable is number.</h2>");
+
+        // Q4: Store visitor information & display order details//
+        var visitorName = "John Doe"; // Change this to any name//
+        var productTitle = "T-shirt"; // Product name//
+        var quantity = 5; // Number of products//
+
+        document.write("<h2>Q4: " + visitorName + " ordered " + quantity + " " + productTitle + "(s) on XYZ Clothing store.</h2>");
+
+    </script>
+
+</body>
+</html>

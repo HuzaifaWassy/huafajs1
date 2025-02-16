@@ -1,0 +1,60 @@
+// Chapter 2: Variables for Strings//
+
+        // Q1: Alert First Name, Last Name, Email, Phone Number, Password//
+        var firstName = "John";
+        var lastName = "Doe";
+        var email = "john.doe@example.com";
+        var phoneNumber = "123-456-7890";
+        var password = "securePassword123";
+
+        alert("Q1: First Name: " + firstName);
+        alert("Q1: Last Name: " + lastName);
+        alert("Q1: Email: " + email);
+        alert("Q1: Phone Number: " + phoneNumber);
+        alert("Q1: Password: " + password);
+
+        // Q2: Correct the statement//
+        alert("You're learning JavaScript!");
+
+        // Q3: Custom alert message//
+        alert("Q3: Welcome to my JavaScript learning journey!");
+
+        // Q4: Declare a camelCase variable//
+        var myVariableName = "Camel Case Example";
+
+        // Q5: Declare a variable without defining it, then assign a string//
+        var undefinedVariable;
+        undefinedVariable = "Now I have a value!";
+
+        // Q6: Declare teamName & show in alert//
+        var teamName = "The JavaScript Warriors";
+        alert("Q6: Team Name: " + teamName);
+
+        // Q7: Reassign new string to the existing variable//
+        var bestMan = "Charlie";
+        bestMan = "David"; // New value assigned//
+
+        // Chapter 3: Variables for Numbers//
+
+        // Q1: Declare a variable caseQty//
+        var caseQty;
+
+        // Q2: Assign 144 to caseQty//
+        caseQty = 144;
+
+        // Q3: Convert num into a number to use in math operation//
+        var num = 9; // Removed quotes to make it a number//
+
+        // Q4: Declare a variable, then assign it the sum of two numbers//
+        var sumResult;
+        sumResult = 10 + 5;
+
+        // Q5: Calculate orderTotal//
+        var merchTotal = 100;
+        var shippingCharge = 10;
+        var orderTotal = merchTotal + shippingCharge;
+        alert("Q5: Order Total is: " + orderTotal);
+
+        // Q6: Declare a variable and update its value by adding a number//
+        var myNumber = 20;
+        myNumber = myNumber + 10; // Now myNumber is 30//
